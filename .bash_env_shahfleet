@@ -1,0 +1,1 @@
+alias shahserver="ssh shahserver.local -t tmux new-session -A -s shahserver"
