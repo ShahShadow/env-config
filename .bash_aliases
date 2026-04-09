@@ -54,4 +54,6 @@ for f in $BASH_ENVS; do
     source "$f"
   fi
 done
+
 alias osmo="/home/hemals/workspaces/osmo/osmo/osmo"
+export PATH=$PATH:~/.local/bin
