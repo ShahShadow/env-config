@@ -1,1 +1,2 @@
-alias shahserver="ssh shahserver.local -t tmux new-session -A -s shahserver"
+# Primary host for Shahfleet infra (sync hostname with your DNS or /etc/hosts).
+alias shahfleet-ssh="ssh shahfleet-control.local -t tmux new-session -A -s shahfleet"
